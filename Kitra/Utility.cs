@@ -13,7 +13,7 @@ namespace Kitra
     class Utility
     {
         // SQL strings are private parameterized string variables with public get accessors.
-        private string dbConnection = @"Provider=Microsoft.ACE.OLEDB.12.0; Data Source=X:\User\Roger\Documents\Visual Studio 2015\Projects\CSharp\BloodBank\KitraDB.accdb";
+        private string dbConnection = @"Provider=Microsoft.ACE.OLEDB.12.0; Data Source=";
         private string selectAll = "SELECT * FROM clients";
         private string aPos = "SELECT * FROM CLIENTS WHERE BLOOD_TYPE = 'A' AND RH_FACTOR = 'POS'";
         private string aNeg = "SELECT * FROM CLIENTS WHERE BLOOD_TYPE = 'A' AND RH_FACTOR = 'NEG'";

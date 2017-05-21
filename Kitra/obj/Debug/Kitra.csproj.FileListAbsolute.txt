@@ -17,3 +17,6 @@ X:\User\Roger\Documents\Visual Studio 2015\Projects\CSharp\Kitra\BloodBank\obj\D
 X:\User\Roger\Documents\Visual Studio 2015\Projects\CSharp\Kitra\Kitra\bin\Debug\Kitra.exe.config
 X:\User\Roger\Documents\Visual Studio 2015\Projects\CSharp\Kitra\Kitra\obj\Debug\Kitra.exe
 X:\User\Roger\Documents\Visual Studio 2015\Projects\CSharp\Kitra\Kitra\obj\Debug\Kitra.pdb
+X:\User\Roger\Documents\Visual Studio 2015\Repo\Kitra\Kitra\bin\Debug\Kitra.exe.config
+X:\User\Roger\Documents\Visual Studio 2015\Repo\Kitra\Kitra\obj\Debug\Kitra.exe
+X:\User\Roger\Documents\Visual Studio 2015\Repo\Kitra\Kitra\obj\Debug\Kitra.pdb
