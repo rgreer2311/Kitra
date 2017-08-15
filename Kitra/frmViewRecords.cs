@@ -1,9 +1,7 @@
-﻿// Roger Greer
-// Programming in C# 
-// Course Project
-// frmViewRecords
+﻿// frmViewRecords
 
-// This form allows the user to view and navigate between client records currently in the MS Access KitraDB database
+// This form allows the user to view and navigate between client records currently in the MS Access KitraDB database using ADO.Net. The user must remap the datasource to the 
+// MS Access database on their local machine.
 using System;
 using System.Data.OleDb;
 using System.Windows.Forms;
@@ -72,7 +70,7 @@ namespace Kitra
         public void DataMap()
         {   // This method loads the clients image path to the picture box and sets the checked property for the 
             // donor, screened, recipient check boxes based on boolean values from the database.
-            // These work arounds will be revised in the next release.
+            
             string imageLocation = lblImageLocation.Text;
             picDBclient.Image = new Bitmap(imageLocation);
             // These fields are MS Access Yes/No values and must be converted

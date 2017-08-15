@@ -1,19 +1,18 @@
-﻿// Roger Greer
-// Programming in C# 
-// Course Project
-// Class Utility.cs
+﻿// Class Utility.cs
 using System.Data;
 using System.Data.OleDb;
 using System.Windows.Forms;
 
 
-// This class contains the database logic for the Kitra Blood Bank software. It accesses the MS Access "KitraDB" database.
+// // This class contains the database logic for the Kitra Blood Bank software. It accesses the MS Access "KitraDB" database. 
+// The first method 'AddClient' inserts new records into the database. The second method 'SearchRecords' searches the database based on a stored query.
+// The user must set the file path to the database in the connection string. 
 namespace Kitra
 {   
     class Utility
     {
         // SQL strings are private parameterized string variables with public get accessors.
-        private string dbConnection = @"Provider=Microsoft.ACE.OLEDB.12.0; Data Source=";
+        private string dbConnection = @"Provider=Microsoft.ACE.OLEDB.12.0; Data Source= <ADD FILE PATH TO THE DATABASE ON LOCAL MACHINE> ";
         private string selectAll = "SELECT * FROM clients";
         private string aPos = "SELECT * FROM CLIENTS WHERE BLOOD_TYPE = 'A' AND RH_FACTOR = 'POS'";
         private string aNeg = "SELECT * FROM CLIENTS WHERE BLOOD_TYPE = 'A' AND RH_FACTOR = 'NEG'";
@@ -119,27 +118,7 @@ namespace Kitra
                 return oNeg;
             }
         }
-        public string donorQuery
-        {
-            get
-            {
-                return cDonor;
-            }
-        }
-        public string recipientQuery
-        {
-            get
-            {
-                return cRecipient;
-            }
-        }
-        public string screenedQuery
-        {
-            get
-            {
-                return cScreened;
-            }
-        }
+        
         public string queryType { get; set; }
         // Public dataset for querry results, may violate good security practice rules.
         public DataSet dsClients = new DataSet();

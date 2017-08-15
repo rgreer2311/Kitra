@@ -1,7 +1,4 @@
-﻿// Roger Greer
-// Programming in C# 
-// Course Project
-// frmSearch
+﻿// frmSearch
 
 // This form allows the user to select a quick query from the combobox for matching blood types
 using System;

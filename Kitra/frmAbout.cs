@@ -1,7 +1,4 @@
-﻿// Roger Greer
-// Programming in C# 
-// Course Project
-// frmAbout
+﻿// frmAbout
 
 // This form provides the user information on the software
 using System;

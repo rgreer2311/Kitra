@@ -1,6 +1,4 @@
-﻿// Roger Greer
-// Programming in C# 
-// Course Project
+﻿
 // frmRegistration
 
 // This form allows the user to add clients to the KitraDB database. It validates and formats user input on the front end of the Utility method AddClient().

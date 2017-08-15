@@ -1,7 +1,4 @@
-﻿// Roger Greer
-// Programming in C# 
-// Course Project
-// frmRecords
+﻿// frmRecords
 
 // This form is an intermediate form for records management options. It allows the user to select the registration form, view records form, or home form.
 using System;

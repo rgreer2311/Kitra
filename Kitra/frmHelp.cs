@@ -1,9 +1,6 @@
-﻿// Roger Greer
-// Programming in C# 
-// Course Project
-// frmHelp
+﻿// frmHelp
 
-// This form will provide quick start help in the next release.
+// This form will provide quick start help given any features the user wants to add.
 using System;
 using System.Windows.Forms;
 

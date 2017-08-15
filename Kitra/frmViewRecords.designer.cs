@@ -291,7 +291,6 @@
             this.lblDBcity.Name = "lblDBcity";
             this.lblDBcity.Size = new System.Drawing.Size(152, 23);
             this.lblDBcity.TabIndex = 27;
-            this.lblDBcity.Text = "XXXXXXXXX";
             // 
             // clientsBindingSource
             // 
@@ -311,7 +310,6 @@
             this.lblDBstreet.Name = "lblDBstreet";
             this.lblDBstreet.Size = new System.Drawing.Size(170, 23);
             this.lblDBstreet.TabIndex = 26;
-            this.lblDBstreet.Text = "XXXXXXXXX";
             // 
             // lblDBzip
             // 
@@ -321,7 +319,6 @@
             this.lblDBzip.Name = "lblDBzip";
             this.lblDBzip.Size = new System.Drawing.Size(100, 23);
             this.lblDBzip.TabIndex = 25;
-            this.lblDBzip.Text = "XXXXXXXXX";
             // 
             // lblDBstate
             // 
@@ -331,7 +328,6 @@
             this.lblDBstate.Name = "lblDBstate";
             this.lblDBstate.Size = new System.Drawing.Size(100, 23);
             this.lblDBstate.TabIndex = 24;
-            this.lblDBstate.Text = "XXXXXXXXX";
             // 
             // lblDBphone
             // 
@@ -341,7 +337,6 @@
             this.lblDBphone.Name = "lblDBphone";
             this.lblDBphone.Size = new System.Drawing.Size(127, 23);
             this.lblDBphone.TabIndex = 22;
-            this.lblDBphone.Text = "XXXXXXXXX";
             // 
             // lblDBaddress
             // 
@@ -351,7 +346,6 @@
             this.lblDBaddress.Name = "lblDBaddress";
             this.lblDBaddress.Size = new System.Drawing.Size(152, 23);
             this.lblDBaddress.TabIndex = 21;
-            this.lblDBaddress.Text = "XXXXXXXXX";
             // 
             // lblDBlast
             // 
@@ -361,7 +355,6 @@
             this.lblDBlast.Name = "lblDBlast";
             this.lblDBlast.Size = new System.Drawing.Size(151, 23);
             this.lblDBlast.TabIndex = 20;
-            this.lblDBlast.Text = "XXXXXXXXX";
             // 
             // lblDBfirst
             // 
@@ -371,7 +364,6 @@
             this.lblDBfirst.Name = "lblDBfirst";
             this.lblDBfirst.Size = new System.Drawing.Size(127, 23);
             this.lblDBfirst.TabIndex = 19;
-            this.lblDBfirst.Text = "XXXXXXXXX";
             // 
             // groupBox1
             // 
@@ -430,7 +422,6 @@
             this.lblBDfactor.Name = "lblBDfactor";
             this.lblBDfactor.Size = new System.Drawing.Size(100, 23);
             this.lblBDfactor.TabIndex = 10;
-            this.lblBDfactor.Text = "XXXXXXXXX";
             // 
             // lblBDtype
             // 
@@ -440,7 +431,6 @@
             this.lblBDtype.Name = "lblBDtype";
             this.lblBDtype.Size = new System.Drawing.Size(100, 23);
             this.lblBDtype.TabIndex = 9;
-            this.lblBDtype.Text = "XXXXXXXXX";
             // 
             // lblDBOnline
             // 

@@ -1,7 +1,4 @@
-﻿// Roger Greer
-// Programming in C# 
-// Course Project
-// frmHome
+﻿// frmHome
 
 // This form is the home screen for Blood Bank management functions
 using System;
